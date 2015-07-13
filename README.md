@@ -9,11 +9,11 @@ tags: strings, methods
 
 In this lab you'll be practicing manipulating strings.
 
-1. In lib/encoder.js create a method that will take a string and apply methods from the String class to it to make the original meaning of the string difficult to discern.
+1. In `lib/encoder.js` create a method that will take a string and apply methods from the String class to it to make the original meaning of the string difficult to discern.
 
-2. In lib/decoder.js create a program that will take that mutated string from encoder.js and will return it to its original configuration, making the meaning of the string clear again.
+2. In `lib/decoder.js` create a method that will take that mutated string from encoder.js and will return it to its original configuration, making the meaning of the string clear again.
 
-3. Open index.html in the browser to see your functions in action!
+3. Open `index.html` in the browser to see your functions in action!
 
 Remember to add, commit, push your code up, and submit a pull request to light up the lights on learn.co!
 
