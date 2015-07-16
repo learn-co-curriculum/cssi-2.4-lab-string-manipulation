@@ -19,14 +19,14 @@ Remember to add, commit, push your code up, and submit a pull request to light u
 
 ## Example
 
-For instance, say we built a encoder method that changed letters that resembled numbers into numbers, subbed whitespace for money signs, and then reversed the order of the string. The string "the great gatsby" would be come "y65ta8$ta3r8$3ht".
+For instance, say we built a encoder method that changed letters that resembled numbers into numbers, subbed whitespace for dollar signs, and then reversed the order of the string. The string "the great gatsby" would become "y65ta8$ta3r8$3ht".
 
 ```javascript
 message = "the great gatsby"
 encoder(message)
 // 1. change letters to numbers
 // => "th3 8r3at 8at56y"
-// 2. replace whitespace with money signs
+// 2. replace whitespace with dollar signs
 // => "th3$8r3at$8at56y"
 // 3. reverse the order
 // => "y65ta8$ta3r8$3ht"
@@ -39,7 +39,7 @@ encoded_message = "y65ta8$ta3r8$3ht"
 decoder(encoded_message)
 // 1. reverse back
 // => "th3$8r3at$8at56y"
-// 2. replace money signs with whitespace
+// 2. replace dollar signs with whitespace
 // => "th3 8r3at 8at56y"
 // 3. change numbers back into letters
 // => "the great gatsby"
