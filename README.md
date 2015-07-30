@@ -1,7 +1,4 @@
----
-languages: javascript
-tags: strings, methods
----
+
 
 # String Manipulation
 
