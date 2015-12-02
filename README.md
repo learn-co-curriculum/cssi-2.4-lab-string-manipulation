@@ -43,3 +43,5 @@ decoder(encoded_message)
 ```
 
 There are a ton of other ways to decode and encode strings so feel free to get creative!
+
+<a href='https://learn.co/lessons/cssi-2.4-lab-string-manipulation' data-visibility='hidden'>View this lesson on Learn.co</a>
